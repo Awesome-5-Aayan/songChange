@@ -1,0 +1,21 @@
+.heading{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+
+}
+
+.note{
+    font-size: 15px;
+    color: black;
+
+}
+
+body{
+    background-size: cover;
+
+}
+#Button_song_name{
+ align-self: center;
+ margin-top: 32px ;
+}
