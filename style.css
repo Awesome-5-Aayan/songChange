@@ -18,4 +18,10 @@ body{
 #Button_song_name{
  align-self: center;
  margin-top: 32px ;
+}   
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    
+
 }
