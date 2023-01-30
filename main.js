@@ -7,6 +7,7 @@ RightWristY=0;
 scoreLeftWrist=0;
 song1_status="";
 song2_status="";
+scoreRightWrist="";
 function preload(){
     song1=loadSound("music.mp3");
     song2=loadSound("music2.mp3");
@@ -40,6 +41,17 @@ function draw(){
         }
     }
     }
+    console.log('Score Right Wrist = ' + scoreRightWrist);
+    if (scoreRightWrist>0.002) {
+       circle(RightWristX, RightWristY, 20);
+        song2.stop();
+        if(song2_status==false){
+            
+        song1.play();
+        document.getElementById("Song").innerHTML="Playing - Harry Potter";
+        }
+    }
+    
 
 function play(){
     song.play();
